@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # # Node.js dependencies
 node_modules/
 package-lock.json
@@ -33,3 +34,6 @@ cache/
 
 # # Test coverage reports
 # coverage/
+=======
+
+>>>>>>> 7d1af59bba74282ad84e62d79d9288d46c11e202

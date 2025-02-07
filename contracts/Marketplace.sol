@@ -29,7 +29,7 @@ contract Marketplace {
         aiModels[modelCount] = AIModel(_name, _description, _price, msg.sender, _fileLink, false);
         emit ModelListed(modelCount, _name, _price, msg.sender);
         modelCount++;
-    }
+    }    
 
     function buyModel(uint256 _modelId) public {
         AIModel storage model = aiModels[_modelId];
